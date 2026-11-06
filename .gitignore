@@ -1,0 +1,18 @@
+# Secrets / config with passwords
+.env
+config.php
+
+# macOS / Windows junk
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Composer (only if you use it)
+vendor/
+
+# Uploads and logs
+uploads/
+*.log
