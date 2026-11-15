@@ -1,8 +1,7 @@
 # Celebrating 2026 – CS 4300 Final Project
 
 Our group website celebrating 2026. Built with HTML, CSS and JavaScript.
-
-**Live site:** _add link once deployed_
+**Live site:** https://josegerard08.github.io/CS-4300-Web-Project/
 
 ## Team
 
