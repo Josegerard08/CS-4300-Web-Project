@@ -124,7 +124,7 @@ li a:hover {
     font-size: 25px;
     color: #513229;
     letter-spacing: 1px;
-    font-family:Georgia,sefir;
+    font-family: Georgia,sefir;
     text-align: center;
 }
 
@@ -156,9 +156,9 @@ h2 {
 }
 h3 {
     font-family: 'Courier New', Courier, monospace;
-    text-transform: uppercase;
     color: #2E5AA7;
     font-size: 22px;
+    text-transform: uppercase;
     margin-bottom: 5px;
 }
 
