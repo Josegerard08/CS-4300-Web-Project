@@ -34,46 +34,97 @@ li {
     padding-left: 40px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .site-name {
-    color: yellow;
+    color: #FFDE70 ;
     padding-left: 0;
 }
 
 li a:hover {
-    color: yellow;
+    color: #FFDE70;
 }
+
+/* ---------- Main title Background Images ---------- */
+.image1{
+    position: absolute;
+    bottom: 500px; 
+    right: 250px;  
+}
+.image2{
+    position: absolute;
+    bottom: 500px; 
+    left: 250px;  
+}
+.image3{
+    position: absolute;
+    transform:rotate(25deg);
+    bottom: 550px; 
+    right: 330px;  
+}
+.image4{
+    position: absolute;
+    transform: rotate(5deg);
+    bottom: 550px; 
+    left: 330px;  
+}
+.image5{
+    position: absolute;
+    bottom: -70px; 
+    right: 570px;  
+}
+.image6{
+    position: absolute;
+    transform:rotate(15deg);
+    bottom: 220px; 
+    left: 300px;  
+}
+.image7{
+    position: absolute;
+    transform:rotate(-25deg);
+    bottom: 220px; 
+    right: 280px;  
+}
+
 
 /* ---------- Main title ---------- */
 .title {
     text-align: center;
-    padding: 40px 20px;
+    padding: 300px 20px;
+    background-color: lightskyblue;
 }
 
 .title h1 {
-    font-size: 50px;
+    font-family: impact, charcoal, sans-serif;
+    font-size: 120px;
+    letter-spacing: 3px;
     margin: 0;
 }
 
 .title p {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
+    font-family: palatino linotype, book antiqua, palatino, serif;
+    font-size: 25px;
 }
 
 /* ---------- Boxes (each member's section) ---------- */
 .box {
+    border-radius: 10px;
     border: 1px solid black;
     padding: 20px;
     margin: 20px;
-    box-shadow: 5px 5px black;
+    box-shadow: 5px 5px #FFDE70;
 }
 
 .box:hover {
-    box-shadow: 9px 9px black;
+    box-shadow: 9px 9px #573F33;
 }
 
 .section-title {
+    font-size: 25px;
+    color: #513229;
+    letter-spacing: 1px;
+    font-family: Georgia,sefir;
     text-align: center;
 }
 
@@ -98,8 +149,16 @@ li a:hover {
     display: block;
 }
 
+h2 {
+    font-family: Arial black, gardget, sans-serif;
+    color: #513229;
+    font-size: 30px;
+}
 h3 {
     font-family: 'Courier New', Courier, monospace;
+    color: #2E5AA7;
+    font-size: 22px;
+    text-transform: uppercase;
     margin-bottom: 5px;
 }
 
@@ -109,7 +168,7 @@ h3 {
 }
 
 .read-more:hover {
-    background-color: yellow;
+    background-color: #B9D9EB;
 }
 
 /* ---------- Team page ---------- */
@@ -138,15 +197,15 @@ h3 {
 }
 
 .linkedin {
-    background-color: blue;
+    background-color: #80A6CB;
 }
 
 .webpage {
-    background-color: black;
+    background-color: #573F33;
 }
 
 .button:hover {
-    color: yellow;
+    color: #FFDE70;
 }
 
 /* ---------- Footer ---------- */
